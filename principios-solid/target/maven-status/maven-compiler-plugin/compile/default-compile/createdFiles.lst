@@ -1,5 +1,10 @@
 UserManager.class
 Main.class
+SMSNotification.class
+INotificationService.class
+User.class
 EmailNotification.class
 UserRepository.class
-User.class
+FaxNotification.class
+EmailsNotification.class
+PushNotification.class
