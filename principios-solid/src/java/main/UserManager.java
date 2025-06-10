@@ -1,6 +1,6 @@
-import User.;
+import User;
 import UserManager;
-import userRepository;
+import UserRepository;
 
 import java.util.regex.Pattern;
 
@@ -8,6 +8,11 @@ class UserManager {
 
     private UserRepository userRepository;
     private EmailNotification emailNotification;
+
+    public UserManager() {
+        this.userRepository = new UserRepository();
+        this.emailNotification = new EmailNotification();
+    }
 
     public void addUser(User user) {
 

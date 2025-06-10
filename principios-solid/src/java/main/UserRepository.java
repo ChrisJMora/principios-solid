@@ -1,3 +1,5 @@
+import User;
+
 // Persistir
 public class UserRepository {
 
