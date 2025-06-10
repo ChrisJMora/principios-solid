@@ -1,10 +1,14 @@
+INotificationService.class
+EmailNotification.class
+FaxNotification.class
+WalkAnimal.class
+Dog.class
 UserManager.class
 Main.class
 SMSNotification.class
-INotificationService.class
 User.class
-EmailNotification.class
+Fish.class
 UserRepository.class
-FaxNotification.class
 EmailsNotification.class
+Animal.class
 PushNotification.class

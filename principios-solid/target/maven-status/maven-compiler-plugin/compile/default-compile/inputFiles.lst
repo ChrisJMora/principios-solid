@@ -1,4 +1,8 @@
 /workspaces/principios-solid/principios-solid/src/main/java/Main.java
+/workspaces/principios-solid/principios-solid/src/main/java/lsp/Animal.java
+/workspaces/principios-solid/principios-solid/src/main/java/lsp/Dog.java
+/workspaces/principios-solid/principios-solid/src/main/java/lsp/Fish.java
+/workspaces/principios-solid/principios-solid/src/main/java/lsp/WalkAnimal.java
 /workspaces/principios-solid/principios-solid/src/main/java/ocp/EmailsNotification.java
 /workspaces/principios-solid/principios-solid/src/main/java/ocp/FaxNotification.java
 /workspaces/principios-solid/principios-solid/src/main/java/ocp/INotificationService.java
