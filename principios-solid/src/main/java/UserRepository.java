@@ -1,6 +1,3 @@
-import User;
-
-// Persistir
 public class UserRepository {
 
     public void saveToDatabase(User user) {

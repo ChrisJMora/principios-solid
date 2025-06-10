@@ -1,9 +1,3 @@
-import User;
-import UserManager;
-import UserRepository;
-
-import java.util.regex.Pattern;
-
 class UserManager {
 
     private UserRepository userRepository;
@@ -17,9 +11,8 @@ class UserManager {
     public void addUser(User user) {
 
         if (user.isValidEmail() && user.isValidPassword()) {
-            userRepository.saveToDatabase(user.getEmail(), user.getPassword());
+            userRepository.saveToDatabase(user);
             emailNotification.sendWelcomeEmail(user.getEmail());
-
         } else {
             System.out.println("Invalid email or password. User not added.");
         }
