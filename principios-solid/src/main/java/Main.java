@@ -6,14 +6,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("SRP");
+        System.out.println("\nSRP\n");
 
         UserManager userManager = new UserManager();
         userManager.addUser(new User("example@domain.com", "password123"));
         userManager.addUser(new User("invalid-email", "1234"));
 
 
-        System.out.println("OCP");
+        System.out.println("\nOCP\n");
 
         INotificationService emailNotification = new EmailsNotification();
         INotificationService smsNotification = new SMSNotification();
@@ -25,7 +25,7 @@ public class Main {
         pushNotification.sendNotification("Hello via Push Notification!");
         faxNotification.sendNotification("Hello via Fax!");
 
-        System.out.println("LSP");
+        System.out.println("\nLSP\n");
 
         Animal dog = new Dog();
         Animal fish = new Fish();
