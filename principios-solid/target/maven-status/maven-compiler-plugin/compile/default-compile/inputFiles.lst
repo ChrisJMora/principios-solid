@@ -3,6 +3,10 @@
 /workspaces/principios-solid/principios-solid/src/main/java/dip/PayPalPaymentService.java
 /workspaces/principios-solid/principios-solid/src/main/java/dip/PaymentProcessor.java
 /workspaces/principios-solid/principios-solid/src/main/java/dip/PaymentService.java
+/workspaces/principios-solid/principios-solid/src/main/java/isp/DisposableCamera.java
+/workspaces/principios-solid/principios-solid/src/main/java/isp/Phone.java
+/workspaces/principios-solid/principios-solid/src/main/java/isp/PowerDevice.java
+/workspaces/principios-solid/principios-solid/src/main/java/isp/Rechargeable.java
 /workspaces/principios-solid/principios-solid/src/main/java/lsp/Animal.java
 /workspaces/principios-solid/principios-solid/src/main/java/lsp/Dog.java
 /workspaces/principios-solid/principios-solid/src/main/java/lsp/Fish.java

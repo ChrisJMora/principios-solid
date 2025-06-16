@@ -1,6 +1,7 @@
 import srp.*;
 import ocp.*;
 import lsp.*;
+import isp.*;
 import dip.*;
 
 public class Main {
@@ -35,6 +36,18 @@ public class Main {
         ((WalkAnimal) dog).walk();
 
         fish.makeSound();
+
+        System.out.println("\nISP\n");
+
+        PowerDevice phone = new Phone();
+        PowerDevice camera = new DisposableCamera();
+
+        phone.turnOn();
+        phone.turnOff();
+        ((Rechargeable) phone).charge(); 
+
+        camera.turnOn();
+        camera.turnOff();
 
         System.out.println("\nDIP\n");
 

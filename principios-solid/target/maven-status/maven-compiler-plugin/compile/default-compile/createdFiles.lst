@@ -1,13 +1,17 @@
 PaymentService.class
+DisposableCamera.class
 INotificationService.class
 EmailNotification.class
 FaxNotification.class
 PayPalPaymentService.class
 WalkAnimal.class
+Rechargeable.class
+Phone.class
 CreditCardPaymentService.class
 Dog.class
 UserManager.class
 Main.class
+PowerDevice.class
 SMSNotification.class
 User.class
 Fish.class
