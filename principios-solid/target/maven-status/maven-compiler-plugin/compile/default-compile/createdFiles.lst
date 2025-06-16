@@ -1,7 +1,10 @@
+PaymentService.class
 INotificationService.class
 EmailNotification.class
 FaxNotification.class
+PayPalPaymentService.class
 WalkAnimal.class
+CreditCardPaymentService.class
 Dog.class
 UserManager.class
 Main.class
@@ -12,3 +15,4 @@ UserRepository.class
 EmailsNotification.class
 Animal.class
 PushNotification.class
+PaymentProcessor.class

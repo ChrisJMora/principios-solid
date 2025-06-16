@@ -1,6 +1,7 @@
 import srp.*;
 import ocp.*;
 import lsp.*;
+import dip.*;
 
 public class Main {
 
@@ -34,6 +35,17 @@ public class Main {
         ((WalkAnimal) dog).walk();
 
         fish.makeSound();
+
+        System.out.println("\nDIP\n");
+
+        PaymentService creditCardPaymentService = new CreditCardPaymentService();
+        PaymentService PayPalPaymentService = new PayPalPaymentService();
+
+        PaymentProcessor creditCardProcessor = new PaymentProcessor(creditCardPaymentService);
+        PaymentProcessor payPalProcessor = new PaymentProcessor(PayPalPaymentService);
+
+        creditCardProcessor.makePayment("#1234", 150.0);
+        payPalProcessor.makePayment("#5678", 300.0);
     }
 
 }
